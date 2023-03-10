@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.3333em;
+	font-size: 0.75em;
 }
 
 p {
@@ -56,8 +56,9 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px 0;
 	width: 100%;
+	border-bottom: #45610E solid 3px;
 }
 
 header h1 span {
@@ -77,8 +78,9 @@ header nav ul li {
 	font-size: 0.875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 0;
 	width: 100%;
+	list-style-type: none;
 }
 
 header nav ul li a {
@@ -108,10 +110,10 @@ header nav ul li a {
 	justify-content: center;
 }
 
-.bottom-section .content-wrapper {
+/*.bottom-section .content-wrapper {
 	border-top: 5px solid #EEE;
 	border-bottom: 5px solid #EEE;
-}
+}*/
 
 .section-one,
 .section-two,
@@ -119,17 +121,18 @@ header nav ul li a {
 	box-sizing: border-box;
 	padding: 0 40px;
 	width: 100%;
+	border-bottom: 5px solid #EEE;
 }
 
-/*.section-one {
-	width: 29%;
-}*/
-
-.section-two {
+.section-one {
 	/*width: 29%;*/
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+	border-top: 5px solid #EEE;
 }
+
+/*.section-two {
+	/*width: 29%;
+
+}*/
 
 /*.section-three {
 	width: 29%;
