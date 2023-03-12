@@ -182,18 +182,48 @@ footer span {
 		width: 30%;
 	}
 
-.section-one, 
-.section-three {
-	padding: 0 10px;
-}
+	.section-one, 
+	.section-three {
+		padding: 0 10px;
+	}
 
-.section-two {
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
-	padding: 0 30px;
-	width: 40%;
-}
+	.section-two {
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		padding: 0 30px;
+		width: 40%;
+	}
 
 @media all and (min-width: 1200px) {
 	/*** DESKTOP STYLES HERE ***/
+	body {
+	font-size: 1em;
+	}
+	header .content-wrapper {
+		max-width: 1200px;
+		width: 90%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+
+	header h1 {
+		width: 100%;
+		padding: 38px 0 20px 0;
+		border-bottom: none;
+		text-align: left;
+	}
+
+	header nav {
+		padding: 46px 0;
+		width: 21%;
+	}
+
+	header nav ul {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+	}
 }
