@@ -167,3 +167,33 @@ footer span {
 	color: #45610E;
 	font-size: 0.875em;
 }
+
+@media all and (min-width: 768px) {
+	/*** TABLET STYLES HERE ***/
+	.bottom-section .content-wrapper {
+		justify-content: space-evenly;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		border-top: 5px solid #EEE;
+		box-sizing: border-box;
+		width: 30%;
+	}
+
+.section-one, 
+.section-three {
+	padding: 0 10px;
+}
+
+.section-two {
+	border-left: 5px solid #EEE;
+	border-right: 5px solid #EEE;
+	padding: 0 30px;
+	width: 40%;
+}
+
+@media all and (min-width: 1200px) {
+	/*** DESKTOP STYLES HERE ***/
+}
