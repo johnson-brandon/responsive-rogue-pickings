@@ -152,9 +152,10 @@ footer span {
 	color: #45610E;
 	font-size: 0.875em;
 }
-
+/***********TABLET MEDIA QUERY ****************/
 @media all and (min-width: 768px) {
-	/*** TABLET STYLES HERE ***/
+
+	/*********BOTTOM SECTION*****************/
 	.bottom-section .content-wrapper {
 		justify-content: space-evenly;
 	}
@@ -179,14 +180,14 @@ footer span {
 		width: 40%;
 	}
 
+/*************DESKTOP MEDIA QUERY*****************/
 @media all and (min-width: 1200px) {
-	/*** DESKTOP STYLES HERE ***/
+
+	/*************GLOBAL STYLES******************/
 	body {
 	font-size: 1em;
 	}
 	header .content-wrapper {
-		max-width: 1200px;
-		width: 90%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -194,14 +195,13 @@ footer span {
 	}
 
 	header h1 {
-		width: 79%;
-		padding: 38px 0 20px 0;
+		width: 30%;
+		padding: 0;
 		border-bottom: none;
 		text-align: left;
 	}
 
 	header nav {
-		padding: 46px 0;
 		width: 21%;
 	}
 
